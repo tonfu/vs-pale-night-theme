@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="Material_Palenight_Theme.689e1d83-8d4a-4807-aaf0-a4c4e4714fac" Version="1.0" Language="en-US" Publisher="Company" />
+        <DisplayName>Material Palenight</DisplayName>
+        <Description xml:space="preserve">Material Palenight Theme</Description>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Material Palenight.jsonc\Material Palenight.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
